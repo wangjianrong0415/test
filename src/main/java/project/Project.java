@@ -24,6 +24,10 @@ public class Project extends AbstractDomainObject {
         // TODO: Remove these before 1.0
         Project p = new Project();
 
+        // test Commit
+
+        int a = 0;
+
         p.setName("J-Ace");
         p.getPluginConfiguration().setPluginType(PluginType.GIT);
         p.getPluginConfiguration().setCloneUrl("https://github.com/aironi/jace.git");
